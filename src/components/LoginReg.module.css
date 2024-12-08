@@ -1,0 +1,79 @@
+label {
+    display:block;
+    font-family: "Inter", "serif";
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #0F172A;
+}
+
+input{
+    display: block;
+    width: 384px;
+    height: 39px;
+    padding: 0;
+    border-radius: 5px;
+
+}
+
+h4{
+    margin-top: 0;
+    font-family: "Inter", sans-serif;
+    font-size: 20px;
+    color: #0F172A;
+    margin-bottom: 16px;
+}
+
+.form{
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.tab {
+    overflow: hidden;
+    width: 166px;
+    height: 42px;
+    background-color: #F1F5F9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+}
+
+.tab > button {
+    background-color: #F1F5F9;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-family: "Inter", "serif";
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+    padding: 6px 12px 6px 12px;
+    border-radius: 5px;
+}
+
+.tab > button:hover {
+    background-color: #FFFFFF;
+}
+
+.createBtn{
+    width: 384px;
+    height: 40px;
+    background-color: #0F172A;
+    color: #FFFFFF;
+    font-family: "Inter", "serif";
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 24px;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    border-radius: 5px;
+}
